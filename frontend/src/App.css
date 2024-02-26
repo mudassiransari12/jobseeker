@@ -78,6 +78,10 @@ p {
   max-width: 1500px;
   margin: 0 auto;
   min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(53, 19, 57);
 }
 .authPage .container {
   flex: 1;
@@ -86,6 +90,7 @@ p {
   justify-content: center;
   background: #fff;
   padding: 20px 20px;
+  
 }
 .authPage .container .header {
   display: flex;
@@ -214,7 +219,7 @@ p {
   color: #f1f3f6;
 }
 .footerShow div a:hover {
-  color: #2d5649;
+  color: #3d287d;
   transform: scale(1.2);
   transition: all 0.3s;
 }
@@ -1160,8 +1165,8 @@ nav .container {
   justify-content: space-between;
 }
 nav .container .logo {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
 }
 nav .container .logo img {
   width: 100%;

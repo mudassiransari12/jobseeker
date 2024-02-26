@@ -52,6 +52,7 @@ const jobSchema = new mongoose.Schema({
   jobPostedOn: {
     type: Date,
     default: Date.now,
+  
   },
   postedBy: {
     type: mongoose.Schema.ObjectId,
